@@ -1,9 +1,10 @@
-package auth.hci.adscanner;
+package auth.hci.adscanner.view;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import auth.hci.adscanner.R;
 
 public class MainActivity extends Activity {
 
