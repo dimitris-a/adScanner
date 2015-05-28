@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		location = (TextView)findViewById(R.id.locationText);
-		GPSTracker gps = new GPSTracker(getBaseContext());
+		GPSTracker gps = new GPSTracker(this);
 		if(gps.canGetLocation())
 		{
 			location.setText("Langtitude: " + gps.getLatitude() + "\nLongtitude: " + gps.getLongitude());
