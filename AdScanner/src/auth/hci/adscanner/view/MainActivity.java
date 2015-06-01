@@ -10,7 +10,7 @@ import auth.hci.adscanner.controller.GPSTracker;
 
 public class MainActivity extends Activity {
 
-	TextView location;
+	private TextView location;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
